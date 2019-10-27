@@ -1,0 +1,368 @@
+/*Global CSS*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Jomolhari', serif;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+/*Header section starts*/
+header {
+	width: 100%;
+	float: left;
+	background-color: #87509C;
+}
+
+.logo {
+	width: 40%;
+	float: left;
+	padding: 50px 0px;
+}
+
+.logo img {
+
+}
+
+.menu {
+
+}
+
+nav {
+	
+}
+
+nav ul {
+
+	list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 50px 0px;
+    margin: 0px 33px;
+    font-size: 25px;
+}
+
+nav ul li a {
+	
+	text-decoration: none;
+		
+	color: #fff;
+}
+
+.banner {
+    width: 600px;
+    margin: 0 auto;
+    padding: 40px 0px 100px;
+}
+
+.banner h2 {
+    text-align: center;
+    color: white;
+    padding: 0px 0px 50px;
+    font-size: 27px;
+}
+
+.btn {
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+    padding: 15px 0px;
+    background-color: #ff4d00;
+    border: none;
+    color: white;
+    box-shadow: 0px 3px 0px #ff4d0069;
+}
+/*Header section ends*/
+
+
+/*Service section starts*/
+.service {
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background-color: #17C2A4;
+}
+
+.title {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title h2 {
+ 	    margin: 15px;
+}
+
+.title p {
+    font-size: 17px;
+}
+
+span {
+    border-bottom: 3px solid #161616;
+    display: block;
+    width: 10%;
+    margin: 10px auto;
+}
+
+.service-types {
+    width: 22%;
+    float: left;
+    margin: 17px;
+}
+
+.service-types img {
+    margin: 0 auto;
+    display: block;
+}
+
+.service-types h2 {
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+.service-types p {
+	text-align: center;
+	padding: 5px 0;
+	color: #fff;
+}
+/*Service section ends*/
+
+
+/*team section starts*/
+.team {
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background-color: #D3D3D3;
+}
+
+.team-members {
+    width: 22%;
+    float: left;
+    text-align: center;
+    margin: 0 17px;
+    padding: 30px 0px;
+}
+
+.team-members img {
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.team-members h5 {
+    color: #6E3FB7;
+    margin: 0px 0px 20px;
+}
+
+.team-members ul {
+    list-style: none;
+}
+
+.team-members ul li {
+    display: inline-block;
+    margin: 10px 2px;
+    background-color: gray;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+/*Team section ends*/
+
+
+/*Skill section starts*/
+.skills {
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background-color: #fff;
+}
+
+.skill-bar {
+    width: 22%;
+    float: left;
+    margin: 17px;
+    text-align: center;
+}
+
+.skill-bar img {
+    display: block;
+    height: 150px;
+    margin: 5px auto;
+}
+/*Skill section ends*/
+
+
+/*Portfolio section starts*/
+.portfolio {
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background-color: #FFDD99;
+}
+
+.portfolio button {
+    padding: 10px;
+    background-color: #C7AC75;
+    margin: 10px;
+    border: none;
+    color: #fff;
+}
+
+.macbook {
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin: 25px 28px;
+}
+
+.macbook img {
+	
+}
+
+.macbook h5 {
+	
+}
+/*Portfolio section ends*/
+
+
+/*Fan section starts*/
+.fans {
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background-color: #D74680;
+}
+
+.fans .container .title h2 {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.fans .container .title p {
+	text-align: center;
+	color: #fff;
+}
+
+.clients {
+	width: 45%;
+	float: left;
+	margin: 30px 28px;
+}
+
+.image {
+	width: 30%;
+	float: left;
+}
+
+.opinion {
+    width: 60%;
+    float: left;
+    margin: 25px;
+}
+
+.opinion p {
+	color: #fff;
+}
+
+.opinion h2 {
+	color: #fff;
+}
+
+.clients img {
+	display: block;
+	height: 150px;
+}
+
+.opinion h5 {
+	color: yellow;
+}
+/*Fan section ends*/
+
+
+/*Feedback section starts*/
+.feedback {
+	width: 100%;
+	float: left;
+	padding: 50px 0px;
+	background-color: #3C5499;
+}
+
+.feedback .container .title h2 {
+	text-align: center;
+	color: #fff;
+}
+
+.feedback .container .title p {
+	text-align: center;
+	color: #fff;
+}
+
+.contact-form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-control {
+    width: 46%;
+    height: 25px;
+    background: #0D3252;
+    border: #161616;
+    margin: 0px 5px;
+    float: left;
+    padding: 5px;
+}
+
+.text-area {
+    width: 100%;
+    padding: 10px;
+    background: #0D3252;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+    border: black;
+}
+
+.form-btn {
+	width: 180px;
+    margin: 0 auto;
+    display: block;
+    padding: 15px 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #30D0C1;
+    border: none;
+    color: white;
+    box-shadow: 0px 3px 0px #009688;
+}
+
+/*Feedback section ends*/
+
+
+/*Footer section starts*/
+footer {
+	width: 100%;
+	float: left;
+	background-color: #344B8E;
+}
+
+footer nav ul {
+	margin: 0px 108px;
+}
+
+footer nav ul li {
+	margin: 0px 29px;
+}
+/*Footer section ends*/
